@@ -1,7 +1,7 @@
 {
   "name": "vue-material",
   "description": "Material Design for Vue.js",
-  "version": "0.7.5",
+  "version": "0.8.0",
   "author": "Marcos Moura <marcosvmmoura@gmail.com>",
   "homepage": "https://vuematerial.github.io",
   "license": "MIT",
@@ -68,7 +68,7 @@
     "date-fns": "^1.27.2",
     "element.scrollintoviewifneeded-polyfill": "^1.0.1",
     "es6-promise": "^4.1.0",
-    "eslint": "^3.16.0",
+    "eslint": "3.19.0",
     "eslint-friendly-formatter": "^2.0.7",
     "eslint-loader": "^1.6.1",
     "eslint-plugin-html": "^2.0.1",

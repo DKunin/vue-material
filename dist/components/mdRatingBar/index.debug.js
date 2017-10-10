@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 470);
+/******/ 	return __webpack_require__(__webpack_require__.s = 389);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -227,7 +227,15 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 323:
+/***/ 389:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(390);
+
+
+/***/ }),
+
+/***/ 390:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -238,11 +246,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdRatingBar = __webpack_require__(324);
+var _mdRatingBar = __webpack_require__(391);
 
 var _mdRatingBar2 = _interopRequireDefault(_mdRatingBar);
 
-var _mdRatingBar3 = __webpack_require__(328);
+var _mdRatingBar3 = __webpack_require__(395);
 
 var _mdRatingBar4 = _interopRequireDefault(_mdRatingBar3);
 
@@ -257,19 +265,19 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 324:
+/***/ 391:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(325)
+  __webpack_require__(392)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(326),
+  __webpack_require__(393),
   /* template */
-  __webpack_require__(327),
+  __webpack_require__(394),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -277,7 +285,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdRatingBar/mdRatingBar.vue"
+Component.options.__file = "/Users/dikunin/Projects/vue-material/src/components/mdRatingBar/mdRatingBar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdRatingBar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -302,14 +310,14 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 325:
+/***/ 392:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 326:
+/***/ 393:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -512,7 +520,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 327:
+/***/ 394:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -626,18 +634,10 @@ if (false) {
 
 /***/ }),
 
-/***/ 328:
+/***/ 395:
 /***/ (function(module, exports) {
 
 module.exports = ".THEME_NAME.md-rating-bar > .md-empty-icon .md-icon {\n  color: BACKGROUND-CONTRAST-0.26; }\n\n.THEME_NAME.md-rating-bar > .md-full-icon .md-icon {\n  color: BACKGROUND-CONTRAST-0.38; }\n\n.THEME_NAME.md-rating-bar.md-primary > .md-full-icon .md-icon {\n  color: PRIMARY-COLOR; }\n\n.THEME_NAME.md-rating-bar.md-accent > .md-full-icon .md-icon {\n  color: ACCENT-COLOR; }\n\n.THEME_NAME.md-rating-bar.md-warn > .md-full-icon .md-icon {\n  color: WARN-COLOR; }\n"
-
-/***/ }),
-
-/***/ 470:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(323);
-
 
 /***/ })
 

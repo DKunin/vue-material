@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 462);
+/******/ 	return __webpack_require__(__webpack_require__.s = 362);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -173,7 +173,15 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 
-/***/ 216:
+/***/ 362:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(363);
+
+
+/***/ }),
+
+/***/ 363:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -184,11 +192,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdImage = __webpack_require__(217);
+var _mdImage = __webpack_require__(364);
 
 var _mdImage2 = _interopRequireDefault(_mdImage);
 
-var _mdImage3 = __webpack_require__(221);
+var _mdImage3 = __webpack_require__(368);
 
 var _mdImage4 = _interopRequireDefault(_mdImage3);
 
@@ -203,19 +211,19 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 217:
+/***/ 364:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(218)
+  __webpack_require__(365)
 }
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(219),
+  __webpack_require__(366),
   /* template */
-  __webpack_require__(220),
+  __webpack_require__(367),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -223,7 +231,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdImage/mdImage.vue"
+Component.options.__file = "/Users/dikunin/Projects/vue-material/src/components/mdImage/mdImage.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdImage.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -248,14 +256,14 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 218:
+/***/ 365:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 219:
+/***/ 366:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -342,7 +350,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 220:
+/***/ 367:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -364,18 +372,10 @@ if (false) {
 
 /***/ }),
 
-/***/ 221:
+/***/ 368:
 /***/ (function(module, exports) {
 
 module.exports = ""
-
-/***/ }),
-
-/***/ 462:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(216);
-
 
 /***/ }),
 
